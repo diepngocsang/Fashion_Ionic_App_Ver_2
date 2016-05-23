@@ -1,0 +1,139 @@
+@font-face {
+    font-family: Pacifico;
+    src: url(../fonts/Pacifico.ttf);
+}
+
+@font-face {
+    font-family: JosefinSans-Regular;
+    src: url(../fonts/JosefinSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lobster;
+    src: url(../fonts/Lobster.otf);
+}
+
+@font-face {
+    font-family: Quicksand-Bold;
+    src: url(../fonts/Quicksand-Bold.otf);
+}
+
+body {
+    font-family: JosefinSans-Regular;
+}
+
+.header {}
+
+.content {}
+
+.button {}
+
+
+/* Menu */
+
+.header__menu {
+    text-align: center;
+}
+
+.header__menu--title {
+    font-family: Pacifico;
+    margin-left: 25%;
+    margin-bottom: 0 !important;
+    color: white;
+}
+
+.header__menu--background {
+    margin-top: 4%;
+}
+
+.content__menu--avatar {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.content__menu--iconuser {
+    width: 35%;
+    border-radius: 50%;
+}
+
+.content__menu {
+    background: url(../img/background/brgMenu.jpg) no-repeat;
+    background-size: cover;
+}
+
+.content__menu--username {
+    text-align: center;
+    font-family: Quicksand-Bold;
+    font-size: 20px;
+    color: white;
+}
+
+.content__menu--button {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.content__menu--icon {
+    font-size: 30px;
+}
+
+.content__menu--label {
+    font-size: 25px;
+    align-items: center;
+    margin-left: 10%;
+    font-weight: bold;
+    /*font-family: Pacifico*/
+}
+.content__menu--titleads{
+    font-family: Lobster;
+    margin-top: 20%;
+    color: darkslateblue;
+    text-align: center;
+    font-size: 20px;
+}
+.content__menu--arrow {
+    width: 100%;
+    text-align: right;
+}
+
+.content__menu__list {
+
+    padding: 5%;
+}
+
+.content__menu__list .row + .row {
+    margin-top: 0;
+    padding-top: 2%;
+}
+
+.list__item--menu {
+    background-color: inherit;
+    border-left: 0;
+    border-right: 0;
+    align-items: center;
+}
+
+.icon__menu--item {
+    padding-right: 3%;
+}
+
+.button--login {
+    font-family: JosefinSans-Regular;
+    background-color: orange;
+    border: 0;
+    border-radius: 5px;
+    padding: 1% 10% 1% 10%;
+    margin-right: 8%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.button--register {
+    font-family: JosefinSans-Regular;
+    border: 0;
+    background-color: lightblue;
+    padding: 1% 8% 1% 8%;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
